@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.text{ 
+    float: right;
+    display: block;
+    margin-top: 80px;
+    margin-right: 80px;
+ 
+    width: 30vw;
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    padding: 11px;
+    background-color:antiquewhite;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    width: 84px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #f1f5f8;
+}
+h1,h2,h3,h4{
+    padding: 13px;
+    color: red;
+}
+img{
+    width: 20vw; 
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;  
+}
+.book{
+    padding: 10px;
+}
+.booklist{
+    margin-left: 20vw;
+    width: 60vw;
+    background: #f1f5f8;
+    height: auto;
+    margin-top: 200px;
+  
+}
