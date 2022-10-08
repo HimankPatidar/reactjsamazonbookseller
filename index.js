@@ -119,15 +119,18 @@ const books = [
 
 
 function BestSeller(){
-  <>
-   <h1 className='header'>Amazon Best Selling Book</h1>
-   </>
+
   return(
+      <>
+   <h1 className='header'>Amazon Best Selling Book</h1>
+   
     <section className="booklist">
       {books.map((book)=>{
         return <Book  book={book} key={book.id}/>
       })}
     </section>
+    
+   </>
   )
 }
 
